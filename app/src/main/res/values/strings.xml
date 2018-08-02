@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LocationUsingAndrLocationAPI</string>
+    <string name="btn_location">Get Location</string>
+    <string name="tv_location">Location: </string>
+</resources>
