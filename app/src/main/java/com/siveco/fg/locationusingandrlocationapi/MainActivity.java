@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onProviderDisabled(String s) {
+                //in cazul in care gps-ul nu este pornit intentul trimite utilizatorul in setari
                 Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
                 startActivity(intent);
             }
